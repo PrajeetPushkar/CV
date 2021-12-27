@@ -24,30 +24,27 @@ body {
 }
 .clip-art {
   width: 10%;
-  display: inline-block;
 }
 .clip-art1 {
-  width: 10%;
-  display: inline-block;
-  position: relative;
-  left: 9.375rem;
+  width: 25%;
+  float: left;
+  margin-right: 2rem;
 }
 .clip-art2 {
-  width: 10%;
-  display: inline-block;
-  position: relative;
-  left: 40.625rem;
+  width: 25%;
+  float: right;
+  margin-left: 2rem;
 }
 .contact-me {
   padding-top: 1.25rem;
 }
 .footer {
   color: rgba(202, 202, 202, 0.933);
-  position: relative;
-  top: 1.875rem;
   font-weight: lighter;
   font-size: 1.25rem;
   margin: 0px;
+  width: 15%;
+  margin: 1rem auto 1rem;
 }
 .footer:hover {
     color: #ff5722;
@@ -55,10 +52,12 @@ body {
 }
 .footer-1 {
   color: rgba(202, 202, 202, 0.933);
-  position: relative;
-  right: 31.25rem;
-  top: 1.25rem;
   font-size: 1.25rem;
+  padding-top: 1rem ;
+  margin-bottom: 1.5rem;
+}
+.footer-link {
+  margin : 10px 10px;
 }
 h1 {
   margin: 0px;
@@ -87,22 +86,7 @@ hr {
   border-width: 0.625rem;
   width: 5%;
 }
-.img-1 {
-  position: relative;
-  right: 32.1875rem;
-  bottom: 1.25rem;
-  width: 2.5rem;
-}
-.img-2 {
-  position: relative;
-  right: 31.5625rem;
-  bottom: 1.25rem;
-  width: 2.5rem;
-}
-.img-3 {
-  position: relative;
-  right: 30.9375rem;
-  bottom: 1.25rem;
+.img {
   width: 2.5rem;
 }
 .intro {
@@ -110,14 +94,13 @@ hr {
   width: 40%;
   color: #00a8cc;
   font-weight: lighter;
+  line-height: 2;
 }
 .mail {
   color: #ff5722;
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
   font-size: 1.25rem;
-  position: relative;
-  right: 30rem;
 }
 .mail:hover {
   text-decoration: underline;
@@ -133,32 +116,30 @@ p {
   font-size: 1.375rem;
 }
 .para {
-  width: 30%;
-  display: inline-block;
-  position: relative;
-  right: 3.75rem;
+  width: 75%;
   font-weight: lighter;
   font-size: 1.25rem;
-  text-align: justify;
   color: #00a8cc;
+  margin: auto;
+  text-align: justify;
+}
+.paragraph {
+  width: 75%;
+  font-weight: lighter;
+  font-size: 1.25rem;
+  color: #00a8cc;
+  text-align: justify;
+  margin: auto;
+  margin-left: 0;
 }
 .para-1 {
   text-align: center;
   width: 50%;
-  position: relative;
-  left: 20.625rem;
   font-weight: lighter;
   color: #00a8cc;
-}
-.paragraph {
-  width: 35%;
-  display: inline-block;
-  position: relative;
-  right: 14.375rem;
-  bottom: 0px;
-  font-weight: lighter;
-  text-align: justify;
-  color: #00a8cc;
+  margin: 0;
+  margin: auto;
+  line-height: 2;
 }
 .profile {
   text-align: center;
@@ -166,33 +147,28 @@ p {
   margin-top: 5.625rem;
   margin-bottom: 3.125rem;
 }
-.skill-1 {
-  display: inline-block;
-  position: relative;
-  left: 13.75rem;
-  bottom: 6.25rem;
-}
-.skill-2 {
-  display: inline-block;
-  position: relative;
-  bottom: 6.25rem;
-  left: 6.25rem;
-}
 .skill-row {
-  padding-top: 3.125rem;
+  line-height: 2;
+  width: 50%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: left;
 }
 .skills {
   text-align: center;
-  margin: 5.625rem 0 5.625rem 0;
+}
+.skill-1 {
+  margin:0;
+}
+.skill-2 {
+  margin:0;
 }
 .skill-title {
   font-size: 2.5rem;
 }
 .social-media {
   color: rgba(202, 202, 202, 0.933);
-  position: relative;
-  right: 31.25rem;
   font-size: 1.25rem;
+  margin: 1rem auto;
 }
 .top-cloud {
   position: absolute;
