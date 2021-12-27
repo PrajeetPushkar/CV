@@ -114,6 +114,7 @@ p {
   color: #00a8cc;
   margin: auto;
   text-align: justify;
+  margin-right : 0;
 }
 .paragraph {
   width: 75%;
